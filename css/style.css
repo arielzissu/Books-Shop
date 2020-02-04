@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(230, 206, 129);
+}
+
+body.rtl {
+    direction: rtl;
+}
+
+h1 {
+    color: blue;
+    width: fit-content;
+}
+
+.btn-leng {
+    width: fit-content;
+}
+
+table,
+td {
+    /* border: 1px solid black; */
+    text-align: center;
+    height: 50px;
+}
+
+.table.table-bordered {
+    width: 60%;
+}
+
+.btn1 {
+    background-color: rgb(87, 58, 219);
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: rgb(231, 148, 39);
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(212, 64, 64);
+    cursor: pointer;
+}
+
+.create-book {
+    color: rgb(53, 22, 231);
+    display: block;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.create-book:hover {
+    color: rgb(171, 199, 241);
+}
+
+
+/* .modal {
+    position: fixed;
+    top: 30%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgb(114, 139, 247);
+    padding: 15px;
+    max-width: 30%;
+} */
+
+img {
+    max-width: 100px;
+}
+
+.model-number {
+    display: block;
+    background-color: rgb(114, 139, 247);
+    border: 10px;
+}
+
+.btn-modal {
+    width: 20px;
+    height: 20px;
+}

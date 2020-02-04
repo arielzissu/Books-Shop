@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Books Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body onload="init()">
+
+    <h1 data-trans="title">Welcome to my Bookshop</h1>
+    <div class="btn-leng">
+        <select onchange="onSetLang(this.value)">
+        <option value="en">English</option>
+        <option value="he">עברית</option>
+        <option value="es">Spanish</option>
+    </select>
+    </div>
+    <div class="create-book" data-trans="createBook" onclick="onAddBook()">Create new book...</div>
+    <table class="table table-bordered bg-info text-white text-body"></table>
+
+    <div class="modal" tabindex="-1" role="dialog"></div>
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/i18n-service.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</body>
+
+</html>
